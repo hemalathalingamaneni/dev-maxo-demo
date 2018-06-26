@@ -44,18 +44,10 @@
  </build>
   
   <distributionManagement>
-	<repository>
-		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
-		<url>http://35.193.152.132:8081/repository/maven-releases/</url>
-	</repository>
- 
-	<snapshotRepository>
-		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
-		<url>http://35.193.152.132:8081/repository/maven-snapshots/</url>
-	</snapshotRepository>
-
+  <repository>
+    <id>releases</id>
+    <url>http://18.222.149.185:8081/nexus/content/repositories/releases</url>
+  </repository>
 </distributionManagement>
   
 </project>
